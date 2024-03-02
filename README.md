@@ -7,7 +7,9 @@ Cleaning Data in SQL Queries
 
 Select *
 From PortfolioProject.dbo.NashvilleHousing
+
 --------------------------------------------------------------------------------------------------------------------------
+
 -- Standardize Date Format
 
 
@@ -25,6 +27,7 @@ Add SaleDateConverted Date;
 
 Update NashvilleHousing
 SET SaleDateConverted = CONVERT(Date,SaleDate)
+
  --------------------------------------------------------------------------------------------------------------------------
  
 -- Populate Property Address data
